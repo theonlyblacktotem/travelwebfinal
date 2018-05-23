@@ -20,7 +20,7 @@ var sectionStyle = {
 };
 var sectionStyle2 = {
   width: "100%",
-  height: "500px",
+  height: "600px",
 
 };
 
