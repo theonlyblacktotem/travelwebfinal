@@ -16,7 +16,7 @@ import './css/navbarANDFX.css';
 
 var sectionStyle = {
   width: "100%",
-  height: "700px",
+  height: "800px",
 
 };
 var sectionStyle2 = {
