@@ -1,7 +1,11 @@
+body {
+    overflow-x:hidden;
+}
 .menu--julietx .menu__item {
 	position: relative;
 	-webkit-transition: color .25s;
 	transition: color .25s;
+	z-index: 1000;
 }
 
 .menu--julietx .menu__item::before,

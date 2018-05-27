@@ -20,7 +20,7 @@ var sectionStyle = {
 };
 var sectionStyle2 = {
   width: "100%",
-  height: "600px",
+  height: "400px",
 
 };
 
@@ -29,7 +29,7 @@ class App extends Component {
     return (
 
       <div>
-        
+
         <ulx>
           <li>
             <a href="#"></a>
@@ -59,9 +59,14 @@ class App extends Component {
         </div>
 
         <div class="parallax" id="top" style={sectionStyle} >
-
+          <div class="caption">
+            <div class="logo">
+            <img src="image/jsgo.png" alt="Girl in a jacket"/>
+            </div>
+          </div>
           <div id="large-header" class="large-header">
             <canvas id="demo-canvas"></canvas>
+
             {/* <h1 class="main-title">Connect <span class="thin">Three</span></h1> */}
           </div>
 
@@ -70,14 +75,14 @@ class App extends Component {
 
 
         <section class="bg-primary" id="hitravel">
+
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto text-center">
-                <h2 class="section-heading-texthi">HI TRAVEL</h2>
+                <h2 class="section-heading-texthi">Travel you're gonna be old.</h2>
                 <hr class="lighthr my-4" />
-                <p class="text-faded-convince mb-4">11111sgoletsgoletsgoletsgoletsgoletsgo letsgoletsgoletsgoletsgoletsgoletsgoletsgoletsgo letsgoletsgo
-                    letsgoletsgoletsgoletsgoletsgoletsgo letsgoletsgo letsgoletsgoletsgo letsgoletsgoletsgoletsgo letsgo
-                    letsgo
+                <p class="text-faded-convince mb-4">“The tragedy in the lives of most of us is that we go through life walking down a high-walled lane with people of our own kind, the same economic situation, the same national background and education and religious outlook. And beyond those walls, all humanity lies, unknown and unseen, and untouched by our restricted and impoverished lives.”
+
                       </p>
                 <div class="scroll">
                   <div class="mouse-icon">
@@ -89,33 +94,138 @@ class App extends Component {
               </div>
             </div>
           </div>
+
         </section>
+        <div class="parallax2" style={sectionStyle2} id="about">
+          <div class="caption">
+            <span class="border-team">OUR MARVELOUS TEAM</span>
+          </div>
 
+        </div>
+        {/* คอนแท็ก */}
 
-
-
-
-        <div class="parallax2" id="about" style={sectionStyle2}></div>
-
-
-        <section>
+        <section class="bg-light-contact" >
           <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6 order-lg-2">
-                <div class="p-5">
-                  <img class="img-fluid-few " src="image/p34.jpg" alt="" />
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase"></h2>
+                <h3 class="section-subheading text-muted">If you ask us "Friend or Money" Exaclty we will choose MONEY </h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="team-member">
+                  <img class="mx-auto rounded-circle" src="image/p33.jpg" alt="rr" />
+                  <h4>Puridate Thepnarong</h4>
+                  <p class="text-muted">Lead Developer</p>
+                  <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.facebook.com/phuridate.tepnarong" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="col-lg-6 order-lg-1">
-                <div class="p-5">
-                  <h2 class="display-4">SUPERMAN</h2>
-                  <p>The one who doing everthing on this fucking site. The one who doing everthing on this fucking site.
-                              The one who doing everthing on this fucking site</p>
+              <div class="col-sm-6">
+                <div class="team-member">
+                  <img class="mx-auto rounded-circle" src="image/web1.jpg" alt="rr" />
+                  <h4>Blacktotem Rightseeker</h4>
+                  <p class="text-muted">Lead Developer</p>
+                  <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.facebook.com/blacktotem.rightseeker" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="team-member">
+                  <img class="mx-auto rounded-circle" src="image/web3.jpg" alt="" />
+                  <h4>Kudo Karn</h4>
+                  <p class="text-muted">Lead Content</p>
+                  <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.facebook.com/kudo.karn" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="team-member">
+                  <img class="mx-auto rounded-circle" src="image/web2.jpg" alt="" />
+                  <h4>Tequila Jiffiyy</h4>
+                  <p class="text-muted">Lead Designer</p>
+                  <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.facebook.com/tequilaji.f" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-8 mx-auto text-center">
+                <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
               </div>
             </div>
           </div>
         </section>
+
+
+
+        <div class="parallax3" style={sectionStyle2}>
+          <div class="caption">
+            <span class="border-team">GO OUT TO USE YOUR LIFE!</span>
+          </div>
+        </div>
+
 
 
         <div id="navbar">
@@ -152,7 +262,10 @@ class App extends Component {
 
         </div>
 
-        <div class="parallax"></div>
+
+
+
+
 
       </div>
 

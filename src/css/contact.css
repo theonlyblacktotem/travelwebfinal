@@ -1,6 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
-.img-fluid-few{
-    border-radius: 50% !important;
-    max-width: 100%;
-    height:auto;
+.bg-light-contact{
+    background-color: #e9e9e9!important;
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    
 }
+.team-member{
+    text-align:center;
+}
+section h3.section-subheading{
+    margin-bottom:2rem;
+}
+
+ul.social-buttons li a{
+   
+    font-size :20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all .3s;
+    transition: all .3s; 
+    color:#fff;
+    border-radius: 50%;
+    outline: 0;
+    background-color:#212529;
+}
+
+.caption{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #212529;
+}
+.border-team{
+    background-color:rgb(58, 52, 68);
+    color: #fff;
+    padding:18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.team-member h4{
+    margin-top:25px;
+    margin-bottom:0;
+}
+
+.rounded-circle{
+   
+    
+    
+      
+}
+@keyframes gradient { 
+    0%{background-position:0% 0%}
+    50%{background-position:100% 100%}
+    100%{background-position:0% 0%}
+  }
+
