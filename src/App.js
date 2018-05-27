@@ -9,9 +9,22 @@ import './css/hitravel.css';
 import './css/paralax.css';
 
 import './css/navbarANDFX.css';
+import logo from './image/mainlogo_mini.png';
 
+var navlogosize = {
+  flex: 1,
+    width: "70%",
+    height: "70%",
+    resizeMode: 'contain'
+}
 
-
+var mainlogosize = {
+  textAlign: "left",
+  flex: 1,
+    width: null,
+    height: null,
+    resizeMode: 'contain'
+}
 
 var sectionStyle = {
   width: "100%",
@@ -33,10 +46,17 @@ class App extends Component {
         <ulx>
           <li>
             <a href="#"></a>
+            <bc href="#">
+            <img src={logo} alt="logo" style={mainlogosize}/>
+          </bc>
+            
           </li>
         </ulx>
 
         <div>
+        
+          
+
           <nav class="menu menu--julietx">
 
             <ul class="menu__listx">
@@ -121,7 +141,7 @@ class App extends Component {
         <div id="navbar">
 
           <b href="#">
-            <i class="fa fa-search"></i>
+            <img src={logo} alt="logo" style={navlogosize}/>
           </b>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
