@@ -46,7 +46,7 @@ class App extends Component {
         <ulx>
           <li>
             <a href="#"></a>
-            <bc href="#">
+            <bc href="#top">
             <img src={logo} alt="logo" style={mainlogosize}/>
           </bc>
             
@@ -250,7 +250,7 @@ class App extends Component {
 
         <div id="navbar">
 
-          <b href="#">
+          <b href="#top">
             <img src={logo} alt="logo" style={navlogosize}/>
           </b>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
