@@ -48,7 +48,22 @@ body, html {
 
     /* Full height */
     height: 100%; 
+    animation: gradient 15s ease infinite;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 {
+    /* The image used */
+    
+    background-image: url('../image/cover5.jpg');
+    
 
+    /* Full height */
+    height: 100%; 
+    animation: gradient 15s ease infinite;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;

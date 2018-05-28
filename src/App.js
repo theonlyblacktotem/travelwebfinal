@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Route } from 'react-router-dom'
 
 import ParallaxSmooth from './js/picparallax.js';
 
@@ -8,7 +8,7 @@ import './css/bar.css';
 import './css/contact.css';
 import './css/hitravel.css';
 import './css/paralax.css';
-
+import './css/blog.css';
 import './css/navbarANDFX.css';
 import logo from './image/mainlogo_mini.png';
 
@@ -38,7 +38,7 @@ var sectionStyle2 = {
 
 };
 
-
+const Project = () => <h1>Blog</h1>
 
 class App extends Component {
   render() {
@@ -75,7 +75,8 @@ class App extends Component {
                 <a href="#about" class="menu__linkx">Contact</a>
               </li>
               <li class="menu__itemx">
-                <a href="#" class="menu__linkx">Blog</a>
+                {/* <Route path="/Blog" component={Blog} /> */}
+                <a href="#blog" class="menu__linkx">Blog</a>
               </li>
 
             </ul>
@@ -120,6 +121,29 @@ class App extends Component {
           </div>
 
         </section>
+        <div class="parallax4" style={sectionStyle2} id="blog">
+          <div class="caption">
+            <span class="border-team">Gallery</span>
+          </div>
+
+        </div>
+        <section id="gallery">
+        
+          <div class="gallery">
+            <div class="img-w">
+              <img src="https://images.unsplash.com/photo-1485766410122-1b403edb53db?dpr=1&auto=format&fit=crop&w=1500&h=846&q=80&cs=tinysrgb&crop=" alt="" /></div>
+            <div class="img-w"><img src="https://images.unsplash.com/photo-1485793997698-baba81bf21ab?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" /></div>
+            <div class="img-w"><img src="https://images.unsplash.com/photo-1485871800663-71856dc09ec4?dpr=1&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=" alt="" /></div>
+            <div class="img-w"><img src="https://images.unsplash.com/photo-1485871882310-4ecdab8a6f94?dpr=1&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=" alt="" /></div>
+            <div class="img-w"><img src="https://images.unsplash.com/photo-1485872304698-0537e003288d?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" /></div>
+            <div class="img-w"><img src="https://images.unsplash.com/photo-1485872325464-50f17b82075a?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" /></div>
+            <div class="img-w"><img src="https://images.unsplash.com/photo-1470171119584-533105644520?dpr=1&auto=format&fit=crop&w=1500&h=886&q=80&cs=tinysrgb&crop=" alt="" /></div>
+            <div class="img-w"><img src="https://images.unsplash.com/photo-1485881787686-9314a2bc8f9b?dpr=1&auto=format&fit=crop&w=1500&h=969&q=80&cs=tinysrgb&crop=" alt="" /></div>
+            <div class="img-w"><img src="https://images.unsplash.com/photo-1485889397316-8393dd065127?dpr=1&auto=format&fit=crop&w=1500&h=843&q=80&cs=tinysrgb&crop=" alt="" /></div>
+          </div>
+        </section>
+
+
         <div class="parallax2" style={sectionStyle2} id="about">
           <div class="caption">
             <span class="border-team">OUR MARVELOUS TEAM</span>
@@ -236,7 +260,7 @@ class App extends Component {
             </div>
             <div class="row">
               <div class="col-lg-8 mx-auto text-center">
-                <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                <p class="large text-muted">King Mongkut's University of Technology Thonburi</p>
               </div>
             </div>
           </div>
@@ -255,8 +279,8 @@ class App extends Component {
         <div id="navbar">
 
           <b class="logotohome" >
-          <a href="#top">
-            <input type="image" a href="#top" src={logo} alt="logo" s style={navlogosize} />
+            <a href="#top">
+              <input type="image" a href="#top" src={logo} alt="logo" s style={navlogosize} />
             </a>
           </b>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
