@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 import ParallaxSmooth from './js/picparallax.js';
 
 import './App.css';
@@ -13,17 +14,17 @@ import logo from './image/mainlogo_mini.png';
 
 var navlogosize = {
   flex: 1,
-    width: "70%",
-    height: "70%",
-    resizeMode: 'contain'
+  width: "70%",
+  height: "70%",
+  resizeMode: 'contain'
 }
 
 var mainlogosize = {
   textAlign: "left",
   flex: 1,
-    width: null,
-    height: null,
-    resizeMode: 'contain'
+  width: null,
+  height: null,
+  resizeMode: 'contain'
 }
 
 var sectionStyle = {
@@ -37,6 +38,8 @@ var sectionStyle2 = {
 
 };
 
+
+
 class App extends Component {
   render() {
     return (
@@ -47,15 +50,16 @@ class App extends Component {
           <li>
             <a href="#"></a>
             <bc href="#top">
-            <img src={logo} alt="logo" style={mainlogosize}/>
-          </bc>
-            
+              <img src={logo} alt="logo" style={mainlogosize} />
+
+            </bc>
+
           </li>
         </ulx>
 
         <div>
-        
-          
+
+
 
           <nav class="menu menu--julietx">
 
@@ -81,7 +85,7 @@ class App extends Component {
         <div class="parallax" id="top" style={sectionStyle} >
           <div class="caption">
             <div class="logo">
-            <img src="image/jsgo.png" alt="Girl in a jacket"/>
+              <img src="image/jsgo.png" alt="Girl in a jacket" />
             </div>
           </div>
           <div id="large-header" class="large-header">
@@ -250,8 +254,10 @@ class App extends Component {
 
         <div id="navbar">
 
-          <b >
-            <img src={logo} alt="logo"s style={navlogosize}/>
+          <b class="logotohome" >
+          <a href="#top">
+            <input type="image" a href="#top" src={logo} alt="logo" s style={navlogosize} />
+            </a>
           </b>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -264,10 +270,10 @@ class App extends Component {
             <ul class="menu__list">
 
               <li class="menu__item">
-                <a href="#top" class="menu__link">login</a>
+                <a href="#top" class="menu__link">Home</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Sign Up</a>
+                <a href="#" class="menu__link">Login</a>
               </li>
               <li class="menu__item">
                 <a href="#about" class="menu__link">Contact</a>
