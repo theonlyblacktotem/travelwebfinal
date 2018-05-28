@@ -49,10 +49,10 @@ class App extends Component {
         <ulx>
           <li>
             <a href="#"></a>
-            <bc href="#top">
+            {/* <bc href="#top">
               <img src={logo} alt="logo" style={mainlogosize} />
 
-            </bc>
+            </bc> */}
 
           </li>
         </ulx>
@@ -106,7 +106,8 @@ class App extends Component {
               <div class="col-lg-8 mx-auto text-center">
                 <h2 class="section-heading-texthi">Travel you're gonna be old.</h2>
                 <hr class="lighthr my-4" />
-                <p class="text-faded-convince mb-4">“The tragedy in the lives of most of us is that we go through life walking down a high-walled lane with people of our own kind, the same economic situation, the same national background and education and religious outlook. And beyond those walls, all humanity lies, unknown and unseen, and untouched by our restricted and impoverished lives.”
+                <p class="text-faded-convince mb-4">“No one realizes how beautiful it is to travel until he comes home and rests his head on his old, familiar pillow.
+                Travel with someone you want.Because you will realize them when they go far away.”
 
                       </p>
                 <div class="scroll">
@@ -127,7 +128,7 @@ class App extends Component {
           </div>
 
         </div>
-        <section id="gallery">
+        <section id="gallerypadding">
         
           <div class="gallery">
             <div class="img-w">
