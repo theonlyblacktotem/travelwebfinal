@@ -62,10 +62,10 @@ class App extends Component {
             <ul class="menu__listx">
 
               <li class="menu__itemx">
-                <a href="#top" class="menu__linkx">Login</a>
+                <a href="#top" class="menu__linkx">Home</a>
               </li>
               <li class="menu__itemx">
-                <a href="#" class="menu__linkx">Sign Up</a>
+                <a href="#" class="menu__linkx">Login</a>
               </li>
               <li class="menu__itemx">
                 <a href="#about" class="menu__linkx">Contact</a>
@@ -250,8 +250,8 @@ class App extends Component {
 
         <div id="navbar">
 
-          <b href="#top">
-            <img src={logo} alt="logo" style={navlogosize}/>
+          <b >
+            <img src={logo} alt="logo"s style={navlogosize}/>
           </b>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
