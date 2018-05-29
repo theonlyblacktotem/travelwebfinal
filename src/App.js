@@ -75,7 +75,6 @@ class App extends Component {
                 <a href="#about" class="menu__linkx">Contact</a>
               </li>
               <li class="menu__itemx">
-                {/* <Route path="/Blog" component={Blog} /> */}
                 <a href="#blog" class="menu__linkx">Blog</a>
               </li>
 
@@ -122,6 +121,7 @@ class App extends Component {
           </div>
 
         </section>
+
         <div class="parallax4" style={sectionStyle2} id="blog">
           <div class="caption">
             <span class="border-team">Gallery</span>
@@ -129,7 +129,7 @@ class App extends Component {
 
         </div>
         <section id="gallerypadding">
-        
+
           <div class="gallery">
             <div class="img-w">
               <img src="https://images.unsplash.com/photo-1485766410122-1b403edb53db?dpr=1&auto=format&fit=crop&w=1500&h=846&q=80&cs=tinysrgb&crop=" alt="" /></div>
@@ -143,6 +143,86 @@ class App extends Component {
             <div class="img-w"><img src="https://images.unsplash.com/photo-1485889397316-8393dd065127?dpr=1&auto=format&fit=crop&w=1500&h=843&q=80&cs=tinysrgb&crop=" alt="" /></div>
           </div>
         </section>
+
+        <section class="T1">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                  <img class="img-fluid rounded-circle" src="image/ch.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                  <h2 class="display-4">Chiang Mai</h2>
+                  <p>is a land of misty mountains and colourful hill tribes, a playground for seasoned travellers, a paradise for shoppers and a delight for adventurers. On a trip to Chiang Mai, the curious traveller can expand their horizons with Thai massage and cooking courses. Others will be bowled over by the variety of handicrafts and antiques. The wild child will find plenty of lively nightlife, and the epicure can indulge in wonderful cuisine. Despite its relatively small size, Chiang Mai truly has it all.
+
+</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="T2">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="p-5">
+                  <img class="img-fluid rounded-circle" src="image/ger.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="p-5">
+                  <h2 class="display-4">Germany </h2>
+                  <p>If we’re totally honest, the real reason most of us pack our bags for Germany is that glistening golden brew that they pull from the taps.
+
+No one does beer quite like the Germans, and if you live here you will soon learn that there are far more beer festivals than the crowded Oktoberfest. In fact, Germans have so much beer that you can drink a different one brewed under the purity law every day for 15 years.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="T1">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                  <img class="img-fluid rounded-circle" src="image/web01.png" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                  <h2 class="display-4">Japan</h2>
+                  <p>The "Land of the Rising Sun" is a country where the past meets the future. Japanese culture stretches back millennia, yet has also been quick to adopt and created the latest modern fashions and trends.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="T2">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="p-5">
+                  <img class="img-fluid rounded-circle" src="image/ket.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="p-5">
+                  <h2 class="display-4">Phuket</h2>
+                  <p>First, let's get the pronunciation right. The ‘h’ in Phuket (ภูเก็ต) is silent. And then remember that this is the largest Thai island, so you rarely feel surrounded by water. But that means there is space for everyone. Phuket offers such a rich variety of experiences – beach-bumming, culture, diving, fabulous food, hedonistic or holistic pleasures – that visitors are spoilt for choice.
+</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
 
 
         <div class="parallax2" style={sectionStyle2} id="about">
@@ -304,7 +384,7 @@ class App extends Component {
                 <a href="#about" class="menu__link">Contact</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Blog</a>
+                <a href="#blog" class="menu__link">Blog</a>
               </li>
 
             </ul>
